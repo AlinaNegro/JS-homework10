@@ -1,1 +1,1 @@
-# JS-week10
+# JS-homework10
