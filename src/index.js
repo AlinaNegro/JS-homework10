@@ -1,6 +1,6 @@
 //Задание 1. Создайте страницу, подключите скрипт. Создайте функцию, которая выведет сообщение в консоли «Я учу JavaScript!».
-function getMessage () {
-    console.log('Я учу JavaScript!')
+function getMessage() {
+  console.log('Я учу JavaScript!');
 }
 
 getMessage();
