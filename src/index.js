@@ -26,3 +26,12 @@ document.getElementById('garryPotter')
 //Шаг 4: Год является високосным (366 дней).
 //Шаг 5: Год не високосный (у него 365 дней).
 
+function showLeapYear(){
+  console.log(`Год является високосным (366 дней).`);
+}
+
+function showNonLeapYear(){
+  console.log(`Год не високосный (у него 365 дней).`);
+} 
+
+
