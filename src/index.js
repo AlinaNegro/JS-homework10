@@ -34,4 +34,20 @@ function showNonLeapYear(){
   console.log(`Год не високосный (у него 365 дней).`);
 } 
 
+function getLeapYear (year) {
+  if (year % 4 == 0) {
+    if (year % 100 == 0) {
+      if (year % 400 == 0){
+        showLeapYear();
+      } else {
+        showNonLeapYear();
+      }
+    } else {
+      showLeapYear();
+    }
+  } else {
+    showNonLeapYear();
+  }
+}
 
+getLeapYear (2023);
